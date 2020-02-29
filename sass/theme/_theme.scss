@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 #wrapper-navbar{
 	position: absolute;
 	width: 100%;
+	z-index: 100;
 }
 
 .home #wrapper-navbar .bg-primary{
@@ -63,7 +64,6 @@ h1.entry-title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	z-index: -1;
 	text-align: center;
 	text-shadow: 2px 1px #000;
 }
