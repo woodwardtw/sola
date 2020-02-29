@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #content {
-	margin-top: 60px;
+	margin-top: 90px;
 }
 
 //icon home page display
@@ -72,4 +72,9 @@ h1, h2, h3, h4, h5, h6 {
 .icon-img {
 	margin: auto;
     display: block;
+}
+
+//footer
+#wrapper-footer {
+	background-color: $gold;
 }
