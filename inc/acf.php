@@ -67,6 +67,8 @@ defined( 'ABSPATH' ) || exit;
   	global $post;
   	$hero = get_field('main_message_holder', $post->ID);
   	if($hero){
-  		echo '<h1>' . $hero['main_message'] . '</h1>';
+  		echo '<h1 class="hero-main">' . $hero['hero_message'] . '</h1>';
+  		echo '<p>' . $hero['hero_details'] . '</p>';
+  		echo '<a class="btn btn-sola" href="' . $hero['hero_button_link'] . '">' . $hero['hero_button_text'] . '</a>';
   	}
   }
