@@ -76,5 +76,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</nav><!-- .site-navigation -->
 
 	</div><!-- #wrapper-navbar end -->
-		<?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
+	<div class="hero-holder" style="background-image:url(<?php echo get_the_post_thumbnail_url( $post->ID, 'full' ); ?>)">						
+		<div class="hero-block">
+			<?php sola_hero_loop();?>			
+		</div>
+	</div>
 

@@ -62,3 +62,11 @@ defined( 'ABSPATH' ) || exit;
 
 
   }
+
+  function sola_hero_loop(){
+  	global $post;
+  	$hero = get_field('main_message_holder', $post->ID);
+  	if($hero){
+  		echo '<h1>' . $hero['main_message'] . '</h1>';
+  	}
+  }
