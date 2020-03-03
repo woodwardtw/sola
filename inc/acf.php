@@ -70,5 +70,6 @@ defined( 'ABSPATH' ) || exit;
   		echo '<h1 class="hero-main">' . $hero['hero_message'] . '</h1>';
   		echo '<p>' . $hero['hero_details'] . '</p>';
   		echo '<a class="btn btn-sola" href="' . $hero['hero_button_link'] . '">' . $hero['hero_button_text'] . '</a>';
+      echo '<a class="btn btn-sola" href="#primary">Learn More</a>';
   	}
   }
