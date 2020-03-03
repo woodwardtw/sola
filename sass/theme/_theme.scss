@@ -96,6 +96,12 @@ h1.entry-title {
 	text-transform: uppercase;
 	font-size: 1.2em;
 	text-shadow: none;
+	transition: all .2s;
+	font-weight: 600;
+}
+
+.btn-sola:hover{
+	background-color: #f6f6f6;
 }
 
 .top-padding {
