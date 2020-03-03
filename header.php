@@ -82,5 +82,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php sola_hero_loop();?>			
 			</div>
 		</div>
+	<?php else:?>
+		<div class="top-padding"></div>
 	<?php endif; ?>
 

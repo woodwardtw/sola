@@ -26,9 +26,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 
 					<div class="site-info">
-					<h2>Svara på en enkät</h2>
-					<p>På denna sidan tillhandahåller vi flera olika enkäter som administreras via <a href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a> och enkätverktyget <a href="https://www.gravityforms.com/" target="_blank" rel="noopener">GravityForms</a> som är <a href="https://hhk3.kau.se" target="_blank" rel="noopener">tillgänglig för all personal och studenter</a>. All data sparas på servrar hos Karlstads universitet. Vid frågor <a href="https://www.kau.se/om-universitetet/om-karlstads-universitet/vart-ansvar/kompetensutveckling" target="_blank" rel="noopener">kontakta den universitetspedagogiska enheten</a>.</p>
+					
 					<div class="row footer-widgets">
+						<div class="col-md-12">
+							<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Whole Footer") ) : ?>
+							<?php endif;?>
+
+						</div>
+
 						<div class="col-md-4">
 							<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Left Footer") ) : ?>
 							<?php endif;?>
