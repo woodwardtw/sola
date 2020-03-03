@@ -55,7 +55,7 @@ h1.entry-title {
 	margin-bottom: 25px;
 }
 
-//hero home
+//home
 
 .hero-holder {
 	width: 100%;
@@ -110,6 +110,10 @@ h1.entry-title {
 	width: 100%;
 	display: block;
 }
+
+#primary:focus{
+	outline: none;
+} 
 
 //icon home page display
 
